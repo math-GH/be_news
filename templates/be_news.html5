@@ -1,0 +1,7 @@
+<span 
+    title="<?= Date::parse(Config::get('datimFormat'), $this->template['date']) ?>" 
+    style="border-width: 3px 1px 1px; border-style: solid; border-color: red black black; width: 14px; display: inline-block; text-align: center; margin-right: 5px; font-size: 0.7em; background-color: white; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; font-weight: bold;
+    ">
+        <?=Date::parse('d', $this->template['date']) ?>
+</span>
+<?= $this->template['headline'] ?>
