@@ -27,3 +27,43 @@ Backend-template: be_news.html5
 </span>
 <?= $this->template['headline'] ?>
 ```
+
+### $this->template[]
+```php
+Array
+(
+    [id] => 
+    [pid] => 
+    [tstamp] => 
+    [headline] => 
+    [alias] => 
+    [author] => 
+    [date] => 
+    [time] => 
+    [subheadline] => 
+    [teaser] => 
+    [addImage] => 
+    [singleSRC] => 
+    [alt] => 
+    [size] => 
+    [imagemargin] =>
+    [imageUrl] => 
+    [fullsize] => 
+    [caption] => 
+    [floating] => 
+    [addEnclosure] => 
+    [enclosure] =>
+    [source] => 
+    [jumpTo] => 
+    [articleId] => 
+    [url] => 
+    [target] => 
+    [cssClass] => 
+    [noComments] => 
+    [featured] => 
+    [published] => 
+    [start] => 
+    [stop] => 
+    [tags] => 
+)
+```
